@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- CSS -->
+     <link rel="stylesheet" href="style.css">
+
+     <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+
+        <!-- Top block -->
+        <div class="close">
+            <i class='bx bx-x' onclick="closeFunc()"></i>
+            <center><img src="./images/google.png" style="width: 70px; display: flex;" alt="logo"></center>
+        </div>
+
+        <!-- Under sidebar -->
+        <div class="sub">
+
+            <!-- Account -->
+            <div class="top">
+                <div class="avatar" style="position: relative;">
+                    <img style="width: 50px; border-radius: 50%;" src="./images/avatar.jpg" alt="garrix">
+                    <i class='bx bxs-camera' id="avatar"></i>
+                </div>
+                <div>
+                    <p style="font-size: 14px; font-weight: 400;">Max Holloway</p>
+                    <p style="color: #cbd5e1; font-size: 14px;">max.holloway250@gmail.com</p>
+                </div>
+                <i class='bx bx-caret-down' id="down" onclick="dropFunc()"></i>
+            </div>
+
+            <!-- Google Account link -->
+            <a href="#" class="manage">Manage your Google Account</a>
+
+            <!-- Dropdown -->
+            <div class="drop">
+                <a href="#">
+                    <i class='bx bx-user-plus' style="font-size: 21px;"></i>
+                    <p style="font-size: 14px; font-weight: 400;">Add another account</p>
+                </a>
+                <a href="#">
+                    <i class='bx bx-user-voice' style="font-size: 21px;"></i>
+                    <p style="font-size: 14px; font-weight: 400;">Control accounts on this device</p>
+                </a> 
+            </div>
+
+            <!-- Middle links -->
+            <div class="middle">
+                <a href="#">
+                    <i class='bx bx-grid-alt' style="font-size: 21px;"></i>
+                    <p style="font-size: 14px; font-weight: 400;">Manage apps and device</p>
+                </a>
+                <a href="#">
+                    <i class='bx bx-bell' style="font-size: 21px;"></i>
+                    <p style="font-size: 14px; font-weight: 400;">Notification and offers</p>
+                </a>
+                <a href="#">
+                    <i class='bx bx-credit-card' style="font-size: 21px;"></i>
+                    <p style="font-size: 14px; font-weight: 400;">Payments and subscriptions</p>
+                </a>
+                <a href="#">
+                    <i class='bx bx-check-shield' style="font-size: 21px;"></i>
+                    <p style="font-size: 14px; font-weight: 400;">Play Protect</p>
+                </a>
+                <a href="#">
+                    <i class='bx bx-folder' style="font-size: 21px;"></i>
+                    <p style="font-size: 14px; font-weight: 400;">Library</p>
+                </a>
+                <a href="#">
+                    <i class='bx bx-bookmark' style="font-size: 21px;"></i>
+                    <p style="font-size: 14px; font-weight: 400;">Play Pass</p>
+                </a>
+            </div>
+        </div>
+
+        <!-- Bottom links -->
+        <div class="bottom">
+            <a href="#">
+                <i class='bx bx-grid-alt' style="font-size: 21px;"></i>
+                <p style="font-size: 14px; font-weight: 400;">Manage apps and device</p>
+            </a>
+            <a href="#">
+                <i class='bx bx-bell' style="font-size: 21px;"></i>
+                <p style="font-size: 14px; font-weight: 400;">Notification and offers</p>
+            </a>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <a href="#">Privacy Policy</a>
+            <p>•</p>
+            <a href="#">Terms of service</a>
+        </footer>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
